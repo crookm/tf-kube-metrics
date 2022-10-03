@@ -60,7 +60,7 @@ provider "kubernetes" {
 # THE MODULE
 # ---
 module "metrics" {
-  source  = "git@github.com:crookm/tf-kube-metrics.git"
+  source  = "git@github.com:crookm/tf-kube-metrics.git?ref=v0.1.0" # omit '?ref=' to always use latest
 }
 ```
 
