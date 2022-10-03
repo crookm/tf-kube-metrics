@@ -1,4 +1,4 @@
-name: tfsec
+name: codeql
 
 on:
   push:
@@ -12,7 +12,6 @@ on:
 
 jobs:
   tfsec:
-    name: Run tfsec sarif report
     runs-on: ubuntu-latest
     permissions:
       actions: read
