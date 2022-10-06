@@ -32,7 +32,7 @@ resource "kubernetes_deployment" "metrics" {
           image = "registry.k8s.io/kube-state-metrics/kube-state-metrics:v${local.version}"
 
           port {
-            name           = "htt-metrics"
+            name           = "http-metrics"
             container_port = 8080
           }
 
