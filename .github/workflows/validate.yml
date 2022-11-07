@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: setup terraform
-        uses: hashicorp/setup-terraform@bbe167fbdaa1a3bd046bdd70eba9dd3dddcca99c
+        uses: hashicorp/setup-terraform@633666f66e0061ca3b725c73b2ec20cd13a8fdd1
         with:
           terraform_version: 1.1.7
           
